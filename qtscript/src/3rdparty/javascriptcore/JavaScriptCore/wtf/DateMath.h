@@ -42,7 +42,8 @@
 #ifndef DateMath_h
 #define DateMath_h
 
-#include <math.h>
+#include <cmath>
+using namespace std; 
 #include <string.h>
 #include <time.h>
 #include <wtf/CurrentTime.h>

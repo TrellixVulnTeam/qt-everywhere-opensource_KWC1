@@ -69,13 +69,18 @@ static qmlmemprofile_pop_location *memprofile_pop_location;
 static qmlmemprofile_save *memprofile_save;
 static qmlmemprofile_is_enabled *memprofile_is_enabled;
 
-#ifndef QT_NO_LIBRARY
+//#ifndef QT_NO_LIBRARY
+//extern QFunctionPointer qt_linux_find_symbol_sys(const char *symbol);
+//#endif
+
+#if defined(Q_OS_LINUX) && !defined(QT_NO_DYNAMIC_LIBRARY)
 extern QFunctionPointer qt_linux_find_symbol_sys(const char *symbol);
 #endif
 
 static bool openLibrary()
 {
-#if defined(Q_OS_LINUX) && !defined(QT_NO_LIBRARY)
+//cason, fix me.
+#if defined(Q_OS_LINUX1) && !defined(QT_NO_DYNAMIC_LIBRARY)
     if (state == Unloaded) {
         memprofile_stats = (qmlmemprofile_stats *) qt_linux_find_symbol_sys("qmlmemprofile_stats");
         memprofile_clear = (qmlmemprofile_clear *) qt_linux_find_symbol_sys("qmlmemprofile_clear");

@@ -43,7 +43,8 @@
 
 #include <QPair>
 
-#include <math.h>
+#include <cmath>
+using namespace std; 
 
 QT_BEGIN_NAMESPACE
 

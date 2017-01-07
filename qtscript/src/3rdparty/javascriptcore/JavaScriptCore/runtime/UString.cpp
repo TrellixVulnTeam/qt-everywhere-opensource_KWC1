@@ -32,7 +32,8 @@
 #include <ctype.h>
 #include <limits.h>
 #include <limits>
-#include <math.h>
+#include <cmath>
+using namespace std;
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

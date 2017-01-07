@@ -46,7 +46,8 @@
 #include <QByteArray>
 #include <QDebug>
 
-#include <math.h>
+#include <cmath>
+using namespace std;
 
 QT_BEGIN_NAMESPACE
 

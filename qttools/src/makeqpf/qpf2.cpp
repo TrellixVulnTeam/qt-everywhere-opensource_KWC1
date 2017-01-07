@@ -28,7 +28,8 @@
 
 #include "qpf2.h"
 
-#include <math.h>
+#include <cmath>
+using namespace std; 
 #include <private/qfontengine_p.h>
 #include <QFile>
 #include <qendian.h>

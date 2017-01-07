@@ -40,7 +40,8 @@
 // If defined, WIN32_LEAN_AND_MEAN disables timeBeginPeriod/timeEndPeriod.
 #undef WIN32_LEAN_AND_MEAN
 #include <windows.h>
-#include <math.h>
+#include <cmath>
+using namespace std;
 #include <stdint.h>
 #include <time.h>
 

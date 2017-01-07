@@ -47,7 +47,8 @@
 #include "qtextcursor.h"
 #include "qdebug.h"
 
-#include <math.h>
+#include <cmath>
+using namespace std; 
 #include <limits.h>
 
 QT_BEGIN_NAMESPACE

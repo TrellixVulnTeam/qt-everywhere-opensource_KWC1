@@ -39,7 +39,8 @@
 
 
 #include "qhoversensorgesturerecognizer.h"
-#include <math.h>
+#include <cmath>
+using namespace std; 
 
 #define TIMER2_TIMEOUT 5000
 

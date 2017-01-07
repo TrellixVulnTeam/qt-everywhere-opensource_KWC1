@@ -29,6 +29,7 @@
 #include <float.h>
 #include <limits>
 #include <cmath>
+using namespace std;
 #include <stdlib.h>
 
 #if OS(SOLARIS)

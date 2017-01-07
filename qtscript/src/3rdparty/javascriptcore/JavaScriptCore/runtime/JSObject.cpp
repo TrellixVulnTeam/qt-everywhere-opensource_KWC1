@@ -35,7 +35,8 @@
 #include "Lookup.h"
 #include "Nodes.h"
 #include "Operations.h"
-#include <math.h>
+#include <cmath>
+using namespace std;
 #include <wtf/Assertions.h>
 
 namespace JSC {

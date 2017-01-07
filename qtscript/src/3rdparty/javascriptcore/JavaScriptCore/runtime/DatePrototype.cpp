@@ -35,7 +35,8 @@
 
 #include <limits.h>
 #include <locale.h>
-#include <math.h>
+#include <cmath>
+using namespace std;
 #include <time.h>
 #include <wtf/Assertions.h>
 #include <wtf/DateMath.h>

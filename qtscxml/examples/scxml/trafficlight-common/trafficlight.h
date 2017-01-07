@@ -51,7 +51,7 @@
 #ifndef TRAFFICLIGHT_H
 #define TRAFFICLIGHT_H
 
-#include <QScxmlStateMachine>
+#include <QtScxml/QScxmlStateMachine>
 
 #include <QWidget>
 #include <QAbstractButton>

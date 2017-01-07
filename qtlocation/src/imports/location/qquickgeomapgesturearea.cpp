@@ -47,7 +47,8 @@
 #include <QPropertyAnimation>
 #include <QDebug>
 #include <QtPositioning/private/qgeoprojection_p.h>
-#include "math.h"
+#include <cmath>
+using namespace std;
 #include "qgeomap_p.h"
 #include "qdoublevector2d_p.h"
 

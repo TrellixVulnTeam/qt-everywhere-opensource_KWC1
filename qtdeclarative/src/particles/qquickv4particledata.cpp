@@ -37,7 +37,8 @@
 **
 ****************************************************************************/
 
-#include <math.h>
+#include <cmath>
+using namespace std; 
 #include "qquickv4particledata_p.h"
 #include "qquickparticlesystem_p.h"//for QQuickParticleData
 #include <QDebug>

@@ -40,7 +40,8 @@
 #include "qhelpgenerator_p.h"
 #include "qhelpdatainterface_p.h"
 
-#include <math.h>
+#include <cmath>
+using namespace std;
 #include <QtCore/QFile>
 #include <QtCore/QFileInfo>
 #include <QtCore/QDir>

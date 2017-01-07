@@ -37,7 +37,8 @@
 **
 ****************************************************************************/
 
-#include <math.h>
+#include <cmath>
+using namespace std;
 
 #include <private/qlocale_tools_p.h>
 

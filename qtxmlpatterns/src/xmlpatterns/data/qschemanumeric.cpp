@@ -37,7 +37,8 @@
 **
 ****************************************************************************/
 
-#include <math.h>
+#include <cmath>
+using namespace std;
 
 #include "qabstractfloat_p.h"
 #include "qboolean_p.h"

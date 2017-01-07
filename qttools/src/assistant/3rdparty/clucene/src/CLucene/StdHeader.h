@@ -93,7 +93,8 @@ extern int _lucene_counter_break; //can set a watch on this
 #endif
 
 #if defined(_CL_HAVE_MATH_H)
- #include <math.h>
+ #include <cmath>
+ using namespace std;
 #else
  #error "CLucene can't compile without <math.h>"
 #endif

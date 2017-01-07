@@ -52,7 +52,7 @@
 #include "ui_mainwindow.h"
 
 #include <QStringListModel>
-#include <QScxmlStateMachine>
+#include <QtScxml/QScxmlStateMachine>
 
 QT_USE_NAMESPACE
 

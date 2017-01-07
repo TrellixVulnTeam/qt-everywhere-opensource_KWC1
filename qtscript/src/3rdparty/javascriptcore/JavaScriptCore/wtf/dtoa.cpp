@@ -140,7 +140,8 @@
 #else
 #define NO_ERRNO
 #endif
-#include <math.h>
+#include <cmath>
+using namespace std; 
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>

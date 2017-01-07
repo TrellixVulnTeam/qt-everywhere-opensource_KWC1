@@ -1,7 +1,7 @@
 TEMPLATE = subdirs
 
 !msvc{
-qtHaveModule(widgets) {
+qtHaveModule(widgets_no) {
     SUBDIRS +=  trafficlight-widgets-static
     SUBDIRS +=  trafficlight-widgets-dynamic
     SUBDIRS +=  mediaplayer-widgets-static
@@ -10,7 +10,7 @@ qtHaveModule(widgets) {
     SUBDIRS +=  pinball
 }
 
-qtHaveModule(qml) {
+qtHaveModule(qml_no) {
     SUBDIRS +=  calculator-qml
     SUBDIRS +=  trafficlight-qml-static
     SUBDIRS +=  trafficlight-qml-dynamic

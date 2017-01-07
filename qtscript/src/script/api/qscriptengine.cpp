@@ -41,7 +41,8 @@
 #include <QtCore/qshareddata.h>
 #include <QtCore/qmetaobject.h>
 
-#include <math.h>
+#include <cmath>
+using namespace std;
 #include <algorithm>
 
 #include "CodeBlock.h"

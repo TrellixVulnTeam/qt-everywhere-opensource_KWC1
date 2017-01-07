@@ -7,7 +7,8 @@
 #include <ctype.h>
 #include <float.h>
 #include <locale.h>
-#include <math.h>
+#include <cmath>
+using namespace std;
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

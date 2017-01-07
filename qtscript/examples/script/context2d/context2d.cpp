@@ -42,7 +42,8 @@
 
 #include <QVariant>
 
-#include <math.h>
+#include <cmath>
+using namespace std;
 static const double Q_PI   = 3.14159265358979323846;   // pi
 
 #define DEGREES(t) ((t) * 180.0 / Q_PI)

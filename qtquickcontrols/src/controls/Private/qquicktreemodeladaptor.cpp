@@ -37,7 +37,8 @@
 **
 ****************************************************************************/
 
-#include <math.h>
+#include <cmath>
+using namespace std;
 #include "qquicktreemodeladaptor_p.h"
 #include <QtCore/qstack.h>
 #include <QtCore/qdebug.h>

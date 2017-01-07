@@ -42,7 +42,8 @@
 
 #include "childrenprivate.h"
 
-#include <QtCore/QStateMachine>
+//#include <QtScxml/QScxmlStateMachine>
+#include "QtScml/qscxmlstatemachine.h"
 #include <QtQml/QQmlParserStatus>
 #include <QtQml/QQmlListProperty>
 

@@ -50,7 +50,8 @@
 #ifndef Patternist_AbstractFloat_H
 #define Patternist_AbstractFloat_H
 
-#include <math.h>
+#include <cmath>
+using namespace std; 
 
 #include <qnumeric.h>
 

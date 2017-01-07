@@ -6,8 +6,7 @@ SUBDIRS += \
     folderlistmodel \
     localstorage \
     models \
-    settings \
-    statemachine
+    settings 
 
 qtHaveModule(quick) {
     SUBDIRS += \
